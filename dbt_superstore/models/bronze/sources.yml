@@ -1,0 +1,14 @@
+sources:
+  - name: superstore
+    description: Data from Superstore dataset
+    schema: raw
+    tables:
+      - name: orders
+        identifier: orders_xls_orders
+        description: Sales orders from the Superstore dataset
+      - name: people
+        identifier: people_xls_people
+        description: Raw data for regional managers
+      - name: returns
+        identifier: returns_xls_returns
+        description: Raw data for returned orders
