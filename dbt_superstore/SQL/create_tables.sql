@@ -13,9 +13,9 @@ SELECT
     country,
     city,
     state,
-    CASE 
-        WHEN city = 'Burlington' AND postal_code IS NULL THEN '05401' 
-        ELSE postal_code 
+    CASE
+        WHEN city = 'Burlington' AND postal_code IS NULL THEN '05401'
+        ELSE postal_code
     END AS postal_code, -- clean piece of data
     region,
     product_id,
